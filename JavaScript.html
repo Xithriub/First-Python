@@ -1,0 +1,547 @@
+<!-- <script>
+    var sum = 0
+    for (i=4;i<8;i++) {
+        if (i==6) {
+            continue;
+        }
+        sum +=i
+    }
+    document.write(sum);
+</script>
+
+<script>
+    var x = 0;
+    while(x<6){
+        x++;
+    }
+    document.write(x);
+</script> -->
+
+<!-- <script>
+    function main() {
+        var depth =
+    parseInt(readLine(), 10);
+    let days=0;
+    let i =2;
+    while(i<depth) {
+        i+=7-2;
+        days++;
+    }
+    console.log(days);
+    }
+</script> -->
+
+<!-- <script>
+    function myFunction()
+    {
+        alert('Calling a Function!');
+    }
+    myFunction();
+</script> -->
+
+<!-- <script>
+    function myFunction() {
+        alert('Alert box');
+    }
+    myFunction();
+    // "Alert box!"
+
+    //  some other code
+
+    myFunction();
+</script> -->
+
+<!-- <script>
+    function sayhello(name) {
+        alert('Hi,'+name)
+    }
+    sayhello('David')
+</script> -->
+
+<!-- <script>
+    function sayhello(name) {
+        alert('HI,'+ name);
+    }
+    sayhello('David');
+    sayhello('Sarah');
+    sayhello('John');
+</script> -->
+
+<!-- <script>
+    function myalert(txt) {
+        alert('Hello \n' + txt);
+    }
+    myalert('Test')
+</script> -->
+
+<!-- <script>
+    function sayhello(name, age) {
+        document.write(name + 'is ' + age + 'years old.')
+    }
+    sayhello('John ','5 ')
+    
+</script> -->
+
+<!-- <script>
+    function test(x,y) {
+        if(x>y){
+            document.write(x);
+        }
+        else {
+            document.write(y);
+        }
+    }
+    test(5,8);
+</script> -->
+
+<!-- <script>
+    function myFunction(x,y)
+    {
+        alert(x+y);
+    }
+    myFunction(5,24)
+</script> -->
+
+<!-- <script>
+    function myfunction(a,b) {
+        return a*b;
+    }
+    var x = myfunction(5,6);
+    alert(x);
+</script> -->
+
+<!-- <script>
+    function addNumbers(a,b,q,w) {
+        var c = a+b;
+        var u = q/w;
+        return u;
+        return c;
+    }
+    alert(addNumbers(40,2,7,4));
+</script> -->
+
+<!-- <script>
+    function sum_of_total(first,second) {
+        var raz = first-second;
+        return raz;
+    }
+    alert(sum_of_total(56,57))
+</script> -->
+
+<!-- <script>
+    alert('Do you really want to leave this page');
+</script> -->
+
+<!-- <script>
+    var user = prompt('Please enter your name');
+    alert(user)
+</script> -->
+
+<!-- <script>
+    var result = confirm('Do you really want to leave this page?');
+    if (result==true) {
+        alert('Спасибо за ваш отзыв')
+    }
+
+    else {
+        alert('Мы будем тщательно опрашивать ваших друзей')
+    }
+</script> -->
+
+<!-- <script>
+    function test(number)
+    {
+        while(number>78){
+            number++;
+        }
+        return number;
+    }
+    alert(test(2));
+</script> -->
+
+<!-- <script>
+    function test(a,b) {
+        if(a>b){
+            return a*b;
+        }
+
+        else {
+            return b/a;
+        }
+    }
+    alert(test(5,15))
+</script> -->
+
+<!-- <script>
+    function main() {
+        var amount = 
+    parseFloat(readline(), 10);
+        var rate =
+    parseFloat(readline(), 10);
+        console.log(amount*rate)
+    }
+</script> -->
+
+<!-- <script>
+    var person = {
+        name: 'John', age:31,
+        favcolor:'green',height:183
+    };
+</script> -->
+
+<!-- <script>
+    var person = {
+        name: 'John', age: 31,
+        favcolor: 'green', height=183
+    };
+    var x = person.age;
+    var y = person['age']
+</script> -->
+
+<!-- <script>
+    var cours = {name: 'JS', lessons: 41};
+    document.write(cours.name.length)
+</script> -->
+
+<!-- <script>
+    function person (name,age) {
+        this.name=name;
+        this.age=age;
+    }
+    var John = new person('John',25);
+    var James = new person('James',21);
+</script> -->
+
+<!-- <script>
+   var John = {
+    name:'John',
+    age:25
+};
+   var James = {
+    name='James',
+    age:21
+};
+document.write(John.age);
+</script> -->
+
+<!-- <script>
+    function test(a,b) {
+        if(a>b){
+            return a*b;
+        }
+
+        else {
+            return b/a;
+        }
+    }
+    alert(test(5,15))
+</script> -->
+
+<!-- <script>
+    function person(name, age) {
+        this.name=name;
+        this.age=age;
+        this.changeName=function(name) {
+            this.name=name;
+        }
+    }
+    var p = new person('David',21);
+    p.changeName('John');
+    console.log(p);
+</script> -->
+
+<!-- <script>
+    function person (name, age) {
+        this.name=name;
+        this.age=age;
+        this.yearofbirth=bornyear;
+    }
+    function bornyear() {
+        return 2016 - this.age;
+    }
+
+    var p = new person('A',22);
+    document.write(p.yearofbirth());
+</script> -->
+
+<!-- <script>
+    function same (one,two) {
+        if(one>two){
+            return one-two;
+        }
+
+        else {
+            one+two
+        }
+    }
+    alert(same(56,23)) 
+</script> -->
+
+
+
+
+<!-- <script>
+    function person(name,age,color,chipswith) {
+        this.name=name;
+        this.age=age;
+        this.favcolor=color;
+        this.potato=chipswith;
+    }
+
+    var p1 = new.person('John',42,'green','cheese with potato');
+    var p2 = new.person('Amy',21,'red','i dont eat chips');
+
+    document.write(p1.age);
+    document.write(p1.potato);
+    document.write(p2.name);
+</script> -->
+
+<!-- <script>
+    var course1='html';
+    var course2='CSS';
+    var course3='JS';
+
+    var courses=new Array('html','CSS','JS');
+    var course=courses[0];
+    courses[0]="Python";
+    courses[1]="C++";
+    courses[2]="Kotlin";
+    document.write(courses);
+    
+</script> -->
+
+<!-- <script>
+    var courses = new Array(3);
+    courses[0] = 'HTML';
+    courses[1] = 'CSS';
+    courses[2] = 'JSuo';
+    alert(courses);
+    document.write(courses);
+
+    var mythic=['HTML','HEllo','dilo','lopd'];
+    document.write(mythic[2]);
+
+    var mythic=['GoLanD','HEllo','C++','вщвд'];
+    document.write(mythic.length);
+
+    var c1 = ['HTML','CSS'];
+    var c2 = ['JS','C++'];
+    var courses = c1.concat(c2);
+    document.write(courses);
+</script> -->
+
+<!-- <script>
+    var person = [];
+    person['name'] = 'john'
+    person['age'] = 46;
+    person['fav_color'] = 'yellow'
+    person['place_live'] = 'Bishkek'
+    person['telephone'] = '880055355 лучше позвонить сюда чем кого-то заебать'
+    document.write(person['age']);
+    document.write(person['name']);
+    document.write(person['telephone']);
+    document.write(person['fav_color']);
+    document.write(person['place_live']);
+    alert(Math.PI);
+    document.write(Math.E);
+    document.write(Math.LN10);
+    document.write(Math.LOG2E)
+</script> -->
+
+<!-- <script>
+    var number = Math.sin(4);
+    document.write(number);
+
+    var n = prompt('Enter a number', '')
+    var answer = Math.sqrt(n);
+    alert('The square root of ' + n + ' is ' + answer)
+
+</script> -->
+
+<!-- <script>
+    function myalert() {
+        alert('Hi');
+    }
+    setInterval(myalert, 3000)
+</script> -->
+
+<!-- <script>
+    var d = new Date();
+    new Date(miliseconds);
+    new Date(dateString);
+    new Date(year, month, day, hours, minutes, seconds, miliseconds)
+
+    var d1 = new Date(86400000);
+    var d2 = new Date('January 2, 2015 10:42:00');
+    var d3 = new Date(85,5,11,11,42,0,0);
+</script> -->
+
+<!-- <script>
+    var d = new Date;
+    var hours = d.getHours();
+    var month = d.getMonth();
+    document.write(hours);
+    alert(month);
+
+    function printtime() {
+        var d = new Date();
+        var hours = d.getHours();
+        var mins = d.getMinutes();
+        var secs = d.getSeconds();
+        document.body.innerHTML = 
+    hours+':'+mins+':'+secs;
+    }
+    setInterval(printtime,1000);
+
+    function prest(one,two) {
+        if (one>two) {
+            return one/two;
+        }
+
+        else {
+            return one+two;
+        }
+
+    }
+
+    alert(prest(56,23));
+</script> -->
+
+<!-- <script>
+    document.body.innerHTML = 'Some text';
+    finds element by id
+    document.getElementById(id)
+    finds elements by class name
+    document.getElementsByClassName(name)
+    finds elements by tag name
+    document.getElementsByTagName(name)
+
+    var elem = document.getElementById('demo');
+    elem.innerHTML = 'Hello world';
+</script> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id='demo'>
+        <p>some text</p>
+        <p>some other text</p>
+    </div>
+
+    <script>
+    var a = 
+document.getElementById('demo');
+        var arr = a.childNodes;
+        for(var x=0;x<arr.length;x++) {
+            arr[x].innerHTML = 'new text';
+        }
+    </script>
+    
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="myimg" src="kis.jpg" alt="" />
+    <script>
+        var el = document.getElementById('myimg');
+        el.src = 'lo.png'
+    </script>
+    <hr width="100%">
+
+    <a href="http://www.example.com">Some link</a>
+    <script>
+        var el = document.getElementsByTagName("a");
+        el[0].href = 'http://www.sololearn.com';
+    </script>
+
+    <div id="demo" style="width: 200px;">some text
+    </div>
+    <script>
+        var x = document.getElementById('demo');
+        x.style.color = 'green';
+        x.style.width = '100px';
+        x.style.background = 'yellow';
+        x.style.fontSize = '25px';
+        x.style.textAlign = 'center';
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span>Let's dye this world</span><br>
+    <hr width="100%">
+    <span>Even i can grap this world</span><br>
+    <hr width="100%">
+    <span>All it need getting strong</span><br>
+    <hr width="100%">
+    <span>We can catch the game</span><br>
+
+
+    <script>
+        var s = document.
+            getElementsByTagName('span');
+        for(var x=0; x<s.length;x++) {
+            s[x].style.backgroundColor = 'yellow'
+        }
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="demo">some content</div> -->
+    <!-- <script>
+        var p = document.createElement('p');
+        var node = document.createTextNode('Some new text')
+        p.appendChild(node);
+
+        var div = document.getElementById('demo');
+        div.appendChild(p);
+    </script> -->
+
+    <div id="demo">
+        <p id="p1">This is a paragraph</p>
+        <p id="p2">This is another paragraph</p>
+    </div>
+
+    <script>
+        var parent = 
+        document.getElementById('demo');
+        var child = document.getElementById('p1')
+        var child2 = document.getElementById('p2')
+        parent.removeChild(child);
+        parent.removeChild(child2);
+    </script>
+
+</body>
+</html>
+
